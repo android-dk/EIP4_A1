@@ -6,7 +6,7 @@
 
 
 ### 2. Filters/Kernels
-Enthusiastic hobbyist. Loves to go out and collect the item of interest.
+Enthusiastic hobbyist. Loves to go out and collect the item of interest. Eg : Coin collector
 
 ### 3. Epochs
 
