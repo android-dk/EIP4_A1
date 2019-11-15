@@ -6,6 +6,7 @@
 
 
 ### 2. Filters/Kernels
+Enthusiastic hobbyist. Loves to go out and collect the item of interest.
 
 ### 3. Epochs
 
