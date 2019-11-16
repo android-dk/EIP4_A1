@@ -21,7 +21,7 @@ Standard size of your kernel. It is the best odd size kernel to use because it h
 Once a kernel traverses the entire input image, it creates a map of the outputs from its convolution operation on the image. This is your feature map. Different kernels produce different feature maps.
 
 ### 7. Activation Function 
-When we perform a convolution operation, we get a sum of the pixel values after each time the kernel traverses a part of the image. This number could be any number on the number line. The activation function converts this number such that it falls in the range of 0 to 1. 
+When we perform a convolution operation, we get a sum of the pixel values after each time the kernel traverses a part of the image. This sum could be any number on the number line. The activation function converts this number such that it falls in the range of 0 to 1. 
 
 ### 8. Receptive Field
 #### Global :
