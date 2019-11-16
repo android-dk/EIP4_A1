@@ -12,13 +12,13 @@ The object that performs the convolution on the input and extracts the output of
 When your training algorithm has seen the entire training data set, it is said to have completed an epoch.
 
 ### 4. 1x1 Convolution
-It convolves on the channels (feature maps) to produce an output channel which has parts that are contextually linked to each other. 1 x 1 reduces the Z depth while Maxpooling reduces the X & Y size.
+It pools the channels (feature maps) to produce an output channel which has parts that are contextually linked to each other. 1 x 1 extracts the most noticeable features in the channels. It reduces the Z depth ( increases as you increase the number of kernels ) while Maxpooling reduces the X & Y size.
 
 ### 5. 3x3 Convolution
-Standard size of your kernel. It is best odd size kernel to use because it has a left and right view, useful for edge detection.
+Standard size of your kernel. It is the best odd size kernel to use because it has a left and right view, useful for edge detection.
 
 ### 6. Feature Map
-Once a kernel traverses the entire input image, it creates a map of the outputs from its convolution operation on the image. 
+Once a kernel traverses the entire input image, it creates a map of the outputs from its convolution operation on the image. This is your feature map. Different kernels produce different feature maps.
 
 ### 7. Activation Function 
 When we perform a convolution operation, we get a sum of the pixel values after each time the kernel traverses a part of the image. This number could be anything on the number line. The activation function converts this number such that it falls in the range of 0 to 1. 
@@ -29,4 +29,4 @@ This is the number of pixels the network is looking at. We want this to equal th
 Eg : For a 128 x 128 image, we want the Global receptive field to be 128.
 
 #### Local : 
-It is simply the size of the kernel. 
+It is equal to the size of the kernel. 
