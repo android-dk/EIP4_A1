@@ -12,7 +12,7 @@ The object that performs the convolution on the input and extracts the output of
 When your training algorithm has seen the entire training data set, it is said to have completed an epoch.
 
 ### 4. 1x1 Convolution
-It convolves on the channels to produce an output channel which has parts that are contextually linked to each other. 1 x 1 reduces the Z depth while Maxpooling reduces the X & Y size.
+It convolves on the channels (feature maps) to produce an output channel which has parts that are contextually linked to each other. 1 x 1 reduces the Z depth while Maxpooling reduces the X & Y size.
 
 ### 5. 3x3 Convolution
 Standard size of your kernel. It is best odd size kernel to use because it has a left and right view, useful for edge detection.
